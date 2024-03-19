@@ -70,3 +70,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "gem", "~> 0.0.1.alpha"
+gem "rubocop", "~> 1.62"
+
+gem "ruby-lsp", "~> 0.14.6"
