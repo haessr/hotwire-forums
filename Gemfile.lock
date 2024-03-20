@@ -117,7 +117,6 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.12.0)
-    gem (0.0.1.alpha)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.4)
@@ -247,7 +246,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sorbet-runtime (0.5.11295)
+    sorbet-runtime (0.5.11301)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -293,7 +292,6 @@ DEPENDENCIES
   cssbundling-rails
   debug
   devise!
-  gem (~> 0.0.1.alpha)
   jbuilder
   jsbundling-rails
   puma (>= 5.0)
