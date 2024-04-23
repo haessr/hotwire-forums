@@ -14,7 +14,7 @@
     </div>
     <div>
       <%= link_to "Edit", edit_discussion_path(discussion) %> |
-      <%= link_to "Destroy", discussion, data: { turbo_method: :delete, turbo_confirm: "Are you sure? This cannot be undone." }  %>
+      <%= link_to "Destroy", discussion, data: { turbo_method: :delete, turbo_confirm: "Are you sure? This cannot be undone.", turbo_frame: "_top" }  %>
     </div>
   </div>
 <% end %>
